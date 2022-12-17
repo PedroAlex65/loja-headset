@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fones de Ouvidos</title>
+</head>
+
+<body id="trocar" onClick="mudarCor()">
+    <header>
+        <a href="#" class="logo"><i class='bx bx-headphone'></i>SounBox</a>
+        <ul class="navegation">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Teach Specs</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <i class='bx bx-cart'></i>
+            <div id="menu"><i class='bx bx-menu'></i></div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-image">
+            <img src="./img/product1.png" class="one">
+        </div>
+
+        <div class="home-text">
+
+            <h1 id="name-head-set">HEADSET AUDIO<br>TECHNICA</h1>
+            <h2 id="additional-information">Experiência única para os profissionais de som mais críticos.</h2>
+            <h3 id="value-headset">$ 199.00</h3>
+            <a href="#" class="btn">Shop Now</a>
+
+
+        </div>
+
+    </section>
+
+    <div class="main">
+
+        <div class="row">
+            <li><img src="./img/main1.png" onclick="slider('./img/product1.png')" id="clickimage"></li>
+        </div>
+
+        <div class="row2">
+            <li><img src="./img/main2.png" onclick="slider('./img/product2.png')" id="click-image-two"></li>
+        </div>
+
+
+        <div class="row3">
+            <li><img src="./img/main3.png" onclick="slider('./img/product3.png')" id="click-image-three"></li>
+        </div>
+    </div>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
